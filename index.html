@@ -1,0 +1,1311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <body>
+    <section class=" top-txt ">
+        <div class="head container ">
+            <div class="head-txt ">
+                <p>Free shipping, 30-day return or refund guarantee.</p>
+            </div>
+            <div class="sing_in_up ">
+                <a href="#" id="sign-in-btn" style="font-weight:700;color:#000;"><span style="font-size:1.1em;margin-right:4px;">🔑</span>SIGN IN</a>
+                <a href="#" id="sign-up-btn" style="font-weight:700;color:#000;"><span style="font-size:1.1em;margin-right:4px;">📝</span>SIGN UP</a>
+            </div>
+        </div>
+    </section>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <input type="checkbox" name="" id="checkbox">
+            <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+            <ul class="menu-items">
+                <li><a href="#home"><span style="font-size:1.2em;margin-right:6px;">🏠</span>Home</a></li>
+                <li><a href="#sellers"><span style="font-size:1.2em;margin-right:6px;">🛍️</span>Shop</a></li>
+                <li><a href="#news"><span style="font-size:1.2em;margin-right:6px;">📰</span>Blog</a></li>
+                <li><a href="#contact"><span style="font-size:1.2em;margin-right:6px;">📞</span>Contact</a></li>
+                <li>
+                  <div class="navbar-cart-section">
+                      <button id="navbar-cart-toggle" title="View Cart">
+                          <span class="cart-icon">🛒Cart</span>
+                          <span id="navbar-cart-count" class="cart-count">0</span>
+                      </button>
+                      <div id="navbar-cart-dropdown" class="cart-dropdown" style="display:none;">
+                          <h4>Your Cart</h4>
+                          <div id="navbar-cart-list"></div>
+                          <div id="navbar-cart-total"></div>
+                          <button class="proceed-to-buy-btn" id="navbar-cart-checkout" style="margin-top:10px;width:100%;background:#e75480;color:#fff;border:none;border-radius:4px;padding:0.4rem 1.1rem;font-size:1rem;font-weight:600;cursor:pointer;">Checkout</button>
+                      </div>
+                  </div>
+                </li>
+            </ul>
+            <div class="logo">
+                <img src="https://i.postimg.cc/TP6JjSTt/logo.webp" alt="">
+            </div>
+        </div>
+    </nav>
+    <section id="home">
+        <div class="home_page ">
+            <div class="home_img ">
+                <img src="https://i.postimg.cc/t403yfn9/home2.jpg" alt="img ">
+            </div>
+            <div class="home_txt ">
+                <p class="collectio ">SUMMER COLLECTION</p>
+                <h2>FALL - WINTER<br>Collection 2023</h2>
+                <div class="home_label ">
+                    <p>A specialist label creating luxury essentials. Ethically crafted<br>with an unwavering commitment to exceptional quality.</p>
+                </div>
+                <button><a href="#sellers">SHOP NOW</a><i class='bx bx-right-arrow-alt'></i></button>
+                <div class="home_social_icons">
+                    <a href="#"><i class='bx bxl-facebook'></i></a>
+                    <a href="#"><i class='bx bxl-twitter'></i></a>
+                    <a href="#"><i class='bx bxl-pinterest'></i></a>
+                    <a href="#"><i class='bx bxl-instagram'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="collection">
+        <div class="collections container">
+            <div class="content">
+                <img src="https://i.postimg.cc/Xqmwr12c/clothing.webp" alt="img" />
+                <div class="img-content">
+                    <p>Clothing Collections</p>
+                    <button><a href="#sellers">SHOP NOW</a></button>
+                </div>
+            </div>
+            <div class="content2">
+                <img src="https://i.postimg.cc/8CmBZH5N/shoes.webp" alt="img" />
+                <div class="img-content2">
+                    <p>Shoes Spring</p>
+                    <button><a href="#sellers">SHOP NOW</a></button>
+                </div>
+            </div>
+            <div class="content3">
+                <img src="https://i.postimg.cc/MHv7KJYp/access.webp" alt="img" />
+                <div class="img-content3">
+                    <p>Accessories</p>
+                    <button><a href="#sellers">SHOP NOW</a></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="sellers">
+        <div class="seller container">
+            <h2>Top Sales</h2>
+            <div class="best-seller">
+                <div class="best-p1">
+                    <img src="https://i.postimg.cc/8CmBZH5N/shoes.webp" alt="img">
+                    <div class="best-p1-txt">
+                        <div class="name-of-p">
+                            <p>PS England Shoes</p>
+                        </div>
+                        <div class="rating">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                        </div>
+                        <div class="price">
+                            &dollar;37.24
+                            <div class="colors">
+                                <i class='bx bxs-circle red'></i>
+                                <i class='bx bxs-circle blue'></i>
+                                <i class='bx bxs-circle white'></i>
+                            </div>
+                        </div>
+                        <div class="buy-now">
+                        </div>
+                        <!-- In each product card's .product-quantity-form, add a size selector and modernize quantity controls -->
+<form class="product-quantity-form" style="display:flex;align-items:center;gap:0.5rem;margin-top:8px;">
+  <label for="quantity-input-0" style="font-size:0.9rem;">Qty:</label>
+  <div class="quantity-btn-group" style="display:flex;align-items:center;gap:2px;">
+    <button type="button" class="qty-btn minus" style="background:#eee;border:none;border-radius:50%;width:28px;height:28px;font-size:1.2rem;font-weight:bold;cursor:pointer;">-</button>
+    <input type="number" class="quantity-input" id="quantity-input-0" min="1" value="1" style="width:45px;font-size:0.9rem;text-align:center;border-radius:6px;border:1px solid #ccc;">
+    <button type="button" class="qty-btn plus" style="background:#eee;border:none;border-radius:50%;width:28px;height:28px;font-size:1.2rem;font-weight:bold;cursor:pointer;">+</button>
+  </div>
+  <select class="size-select" style="border-radius:6px;padding:2px 8px;font-size:0.9rem;border:1px solid #ccc;">
+    <option value="S">S</option>
+    <option value="M" selected>M</option>
+    <option value="L">L</option>
+    <option value="XL">XL</option>
+  </select>
+  <button class="add-to-cart-btn" type="submit" style="font-size:0.9rem;background:#e75480;color:#fff;border:none;border-radius:6px;padding:0.3rem 1rem;font-weight:600;">Add</button>
+</form>
+                    </div>
+                </div>
+                <div class="best-p1">
+                    <img src="https://i.postimg.cc/76X9ZV8m/Screenshot_from_2022-06-03_18-45-12.png" alt="img">
+                    <div class="best-p1-txt">
+                        <div class="name-of-p">
+                            <p>PS England Jacket</p>
+                        </div>
+                        <div class="rating">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                        </div>
+                        <div class="price">
+                            &dollar;17.24
+                            <div class="colors">
+                                <i class='bx bxs-circle green'></i>
+                                <i class='bx bxs-circle grey'></i>
+                                <i class='bx bxs-circle brown'></i>
+                            </div>
+                        </div>
+                        <div class="buy-now">
+                        </div>
+                        <!-- In each product card's .product-quantity-form, add a size selector and modernize quantity controls -->
+<form class="product-quantity-form" style="display:flex;align-items:center;gap:0.5rem;margin-top:8px;">
+  <label for="quantity-input-1" style="font-size:0.9rem;">Qty:</label>
+  <div class="quantity-btn-group" style="display:flex;align-items:center;gap:2px;">
+    <button type="button" class="qty-btn minus" style="background:#eee;border:none;border-radius:50%;width:28px;height:28px;font-size:1.2rem;font-weight:bold;cursor:pointer;">-</button>
+    <input type="number" class="quantity-input" id="quantity-input-1" min="1" value="1" style="width:45px;font-size:0.9rem;text-align:center;border-radius:6px;border:1px solid #ccc;">
+    <button type="button" class="qty-btn plus" style="background:#eee;border:none;border-radius:50%;width:28px;height:28px;font-size:1.2rem;font-weight:bold;cursor:pointer;">+</button>
+  </div>
+  <select class="size-select" style="border-radius:6px;padding:2px 8px;font-size:0.9rem;border:1px solid #ccc;">
+    <option value="S">S</option>
+    <option value="M" selected>M</option>
+    <option value="L">L</option>
+    <option value="XL">XL</option>
+  </select>
+  <button class="add-to-cart-btn" type="submit" style="font-size:0.9rem;background:#e75480;color:#fff;border:none;border-radius:6px;padding:0.3rem 1rem;font-weight:600;">Add</button>
+</form>
+                        <div class="quantity-add-message" style="margin-top:2px;color:green;font-size:0.9rem;"></div>
+                    </div>
+                </div>
+                <div class="best-p1">
+                    <img src="https://i.postimg.cc/j2FhzSjf/bs2.png" alt="img">
+                    <div class="best-p1-txt">
+                        <div class="name-of-p">
+                            <p>PS England Shirt</p>
+                        </div>
+                        <div class="rating">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bx-star'></i>
+                        </div>
+                        <div class="price">
+                            &dollar;27.24
+                            <div class="colors">
+                                <i class='bx bxs-circle brown'></i>
+                                <i class='bx bxs-circle green'></i>
+                                <i class='bx bxs-circle blue'></i>
+                            </div>
+                        </div>
+                        <div class="buy-now">
+                        </div>
+                        <!-- In each product card's .product-quantity-form, add a size selector and modernize quantity controls -->
+<form class="product-quantity-form" style="display:flex;align-items:center;gap:0.5rem;margin-top:8px;">
+  <label for="quantity-input-2" style="font-size:0.9rem;">Qty:</label>
+  <div class="quantity-btn-group" style="display:flex;align-items:center;gap:2px;">
+    <button type="button" class="qty-btn minus" style="background:#eee;border:none;border-radius:50%;width:28px;height:28px;font-size:1.2rem;font-weight:bold;cursor:pointer;">-</button>
+    <input type="number" class="quantity-input" id="quantity-input-2" min="1" value="1" style="width:45px;font-size:0.9rem;text-align:center;border-radius:6px;border:1px solid #ccc;">
+    <button type="button" class="qty-btn plus" style="background:#eee;border:none;border-radius:50%;width:28px;height:28px;font-size:1.2rem;font-weight:bold;cursor:pointer;">+</button>
+  </div>
+  <select class="size-select" style="border-radius:6px;padding:2px 8px;font-size:0.9rem;border:1px solid #ccc;">
+    <option value="S">S</option>
+    <option value="M" selected>M</option>
+    <option value="L">L</option>
+    <option value="XL">XL</option>
+  </select>
+  <button class="add-to-cart-btn" type="submit" style="font-size:0.9rem;background:#e75480;color:#fff;border:none;border-radius:6px;padding:0.3rem 1rem;font-weight:600;">Add</button>
+</form>
+                        <div class="quantity-add-message" style="margin-top:2px;color:green;font-size:0.9rem;"></div>
+                    </div>
+                </div>
+                <div class="best-p1">
+                    <img src="https://i.postimg.cc/QtjSDzPF/bs3.png" alt="img">
+                    <div class="best-p1-txt">
+                        <div class="name-of-p">
+                            <p>PS England Shoes</p>
+                        </div>
+                        <div class="rating">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                        </div>
+                        <div class="price">
+                            &dollar;43.67
+                            <div class="colors">
+                                <i class='bx bxs-circle red'></i>
+                                <i class='bx bxs-circle grey'></i>
+                                <i class='bx bxs-circle blue'></i>
+                            </div>
+                        </div>
+                        <div class="buy-now">
+                        </div>
+                        <!-- In each product card's .product-quantity-form, add a size selector and modernize quantity controls -->
+<form class="product-quantity-form" style="display:flex;align-items:center;gap:0.5rem;margin-top:8px;">
+  <label for="quantity-input-3" style="font-size:0.9rem;">Qty:</label>
+  <div class="quantity-btn-group" style="display:flex;align-items:center;gap:2px;">
+    <button type="button" class="qty-btn minus" style="background:#eee;border:none;border-radius:50%;width:28px;height:28px;font-size:1.2rem;font-weight:bold;cursor:pointer;">-</button>
+    <input type="number" class="quantity-input" id="quantity-input-3" min="1" value="1" style="width:45px;font-size:0.9rem;text-align:center;border-radius:6px;border:1px solid #ccc;">
+    <button type="button" class="qty-btn plus" style="background:#eee;border:none;border-radius:50%;width:28px;height:28px;font-size:1.2rem;font-weight:bold;cursor:pointer;">+</button>
+  </div>
+  <select class="size-select" style="border-radius:6px;padding:2px 8px;font-size:0.9rem;border:1px solid #ccc;">
+    <option value="S">S</option>
+    <option value="M" selected>M</option>
+    <option value="L">L</option>
+    <option value="XL">XL</option>
+  </select>
+  <button class="add-to-cart-btn" type="submit" style="font-size:0.9rem;background:#e75480;color:#fff;border:none;border-radius:6px;padding:0.3rem 1rem;font-weight:600;">Add</button>
+</form>
+                        <div class="quantity-add-message" style="margin-top:2px;color:green;font-size:0.9rem;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="seller container">
+            <h2>New Arrivals</h2>
+            <div class="best-seller">
+                <div class="best-p1">
+                    <img src="https://i.postimg.cc/fbnB2yfj/na1.png" alt="img">
+                    <div class="best-p1-txt">
+                        <div class="name-of-p">
+                            <p>PS England T-Shirt</p>
+                        </div>
+                        <div class="rating">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                        </div>
+                        <div class="price">
+                            &dollar;10.23
+                            <div class="colors">
+                                <i class='bx bxs-circle blank'></i>
+                                <i class='bx bxs-circle blue'></i>
+                                <i class='bx bxs-circle brown'></i>
+                            </div>
+                        </div>
+                        <div class="buy-now">
+                        </div>
+                        <!-- In each product card's .product-quantity-form, add a size selector and modernize quantity controls -->
+<form class="product-quantity-form" style="display:flex;align-items:center;gap:0.5rem;margin-top:8px;">
+  <label for="quantity-input-4" style="font-size:0.9rem;">Qty:</label>
+  <div class="quantity-btn-group" style="display:flex;align-items:center;gap:2px;">
+    <button type="button" class="qty-btn minus" style="background:#eee;border:none;border-radius:50%;width:28px;height:28px;font-size:1.2rem;font-weight:bold;cursor:pointer;">-</button>
+    <input type="number" class="quantity-input" id="quantity-input-4" min="1" value="1" style="width:45px;font-size:0.9rem;text-align:center;border-radius:6px;border:1px solid #ccc;">
+    <button type="button" class="qty-btn plus" style="background:#eee;border:none;border-radius:50%;width:28px;height:28px;font-size:1.2rem;font-weight:bold;cursor:pointer;">+</button>
+  </div>
+  <select class="size-select" style="border-radius:6px;padding:2px 8px;font-size:0.9rem;border:1px solid #ccc;">
+    <option value="S">S</option>
+    <option value="M" selected>M</option>
+    <option value="L">L</option>
+    <option value="XL">XL</option>
+  </select>
+  <button class="add-to-cart-btn" type="submit" style="font-size:0.9rem;background:#e75480;color:#fff;border:none;border-radius:6px;padding:0.3rem 1rem;font-weight:600;">Add</button>
+</form>
+                        <div class="quantity-add-message" style="margin-top:2px;color:green;font-size:0.9rem;"></div>
+                    </div>
+                </div>
+                <div class="best-p1">
+                    <img src="https://i.postimg.cc/zD02zJq8/na2.png" alt="img">
+                    <div class="best-p1-txt">
+                        <div class="name-of-p">
+                            <p>PS England Bag</p>
+                        </div>
+                        <div class="rating">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                        </div>
+                        <div class="price">
+                            &dollar;09.28
+                            <div class="colors">
+                                <i class='bx bxs-circle brown'></i>
+                                <i class='bx bxs-circle red'></i>
+                                <i class='bx bxs-circle green'></i>
+                            </div>
+                        </div>
+                        <div class="buy-now">
+                        </div>
+                        <!-- In each product card's .product-quantity-form, add a size selector and modernize quantity controls -->
+<form class="product-quantity-form" style="display:flex;align-items:center;gap:0.5rem;margin-top:8px;">
+  <label for="quantity-input-5" style="font-size:0.9rem;">Qty:</label>
+  <div class="quantity-btn-group" style="display:flex;align-items:center;gap:2px;">
+    <button type="button" class="qty-btn minus" style="background:#eee;border:none;border-radius:50%;width:28px;height:28px;font-size:1.2rem;font-weight:bold;cursor:pointer;">-</button>
+    <input type="number" class="quantity-input" id="quantity-input-5" min="1" value="1" style="width:45px;font-size:0.9rem;text-align:center;border-radius:6px;border:1px solid #ccc;">
+    <button type="button" class="qty-btn plus" style="background:#eee;border:none;border-radius:50%;width:28px;height:28px;font-size:1.2rem;font-weight:bold;cursor:pointer;">+</button>
+  </div>
+  <select class="size-select" style="border-radius:6px;padding:2px 8px;font-size:0.9rem;border:1px solid #ccc;">
+    <option value="S">S</option>
+    <option value="M" selected>M</option>
+    <option value="L">L</option>
+    <option value="XL">XL</option>
+  </select>
+  <button class="add-to-cart-btn" type="submit" style="font-size:0.9rem;background:#e75480;color:#fff;border:none;border-radius:6px;padding:0.3rem 1rem;font-weight:600;">Add</button>
+</form>
+                        <div class="quantity-add-message" style="margin-top:2px;color:green;font-size:0.9rem;"></div>
+                    </div>
+                </div>
+                <div class="best-p1">
+                    <img src="https://i.postimg.cc/Dfj5VBcz/sunglasses1.jpg" alt="img">
+                    <div class="best-p1-txt">
+                        <div class="name-of-p">
+                            <p>PS England Sunglass</p>
+                        </div>
+                        <div class="rating">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                        </div>
+                        <div class="price">
+                            &dollar;06.24
+                            <div class="colors">
+                                <i class='bx bxs-circle grey'></i>
+                                <i class='bx bxs-circle blank'></i>
+                                <i class='bx bxs-circle blank'></i>
+                            </div>
+                        </div>
+                        <div class="buy-now">
+                        </div>
+                        <!-- In each product card's .product-quantity-form, add a size selector and modernize quantity controls -->
+<form class="product-quantity-form" style="display:flex;align-items:center;gap:0.5rem;margin-top:8px;">
+  <label for="quantity-input-6" style="font-size:0.9rem;">Qty:</label>
+  <div class="quantity-btn-group" style="display:flex;align-items:center;gap:2px;">
+    <button type="button" class="qty-btn minus" style="background:#eee;border:none;border-radius:50%;width:28px;height:28px;font-size:1.2rem;font-weight:bold;cursor:pointer;">-</button>
+    <input type="number" class="quantity-input" id="quantity-input-6" min="1" value="1" style="width:45px;font-size:0.9rem;text-align:center;border-radius:6px;border:1px solid #ccc;">
+    <button type="button" class="qty-btn plus" style="background:#eee;border:none;border-radius:50%;width:28px;height:28px;font-size:1.2rem;font-weight:bold;cursor:pointer;">+</button>
+  </div>
+  <select class="size-select" style="border-radius:6px;padding:2px 8px;font-size:0.9rem;border:1px solid #ccc;">
+    <option value="S">S</option>
+    <option value="M" selected>M</option>
+    <option value="L">L</option>
+    <option value="XL">XL</option>
+  </select>
+  <button class="add-to-cart-btn" type="submit" style="font-size:0.9rem;background:#e75480;color:#fff;border:none;border-radius:6px;padding:0.3rem 1rem;font-weight:600;">Add</button>
+</form>
+                        <div class="quantity-add-message" style="margin-top:2px;color:green;font-size:0.9rem;"></div>
+                    </div>
+                </div>
+                <div class="best-p1">
+                    <img src="https://i.postimg.cc/FszW12Kc/na4.png" alt="img">
+                    <div class="best-p1-txt">
+                        <div class="name-of-p">
+                            <p>PS England Shoes</p>
+                        </div>
+                        <div class="rating">
+                            <i class='bx bxs-star'></i
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                        </div>
+                        <div class="price">
+                            &dollar;43.67
+                            <div class="colors">
+                                <i class='bx bxs-circle grey'></i>
+                                <i class='bx bxs-circle red'></i>
+                                <i class='bx bxs-circle blue'></i>
+                            </div>
+                        </div>
+                        <div class="buy-now">
+                        </div>
+                        <!-- In each product card's .product-quantity-form, add a size selector and modernize quantity controls -->
+<form class="product-quantity-form" style="display:flex;align-items:center;gap:0.5rem;margin-top:8px;">
+  <label for="quantity-input-7" style="font-size:0.9rem;">Qty:</label>
+  <div class="quantity-btn-group" style="display:flex;align-items:center;gap:2px;">
+    <button type="button" class="qty-btn minus" style="background:#eee;border:none;border-radius:50%;width:28px;height:28px;font-size:1.2rem;font-weight:bold;cursor:pointer;">-</button>
+    <input type="number" class="quantity-input" id="quantity-input-7" min="1" value="1" style="width:45px;font-size:0.9rem;text-align:center;border-radius:6px;border:1px solid #ccc;">
+    <button type="button" class="qty-btn plus" style="background:#eee;border:none;border-radius:50%;width:28px;height:28px;font-size:1.2rem;font-weight:bold;cursor:pointer;">+</button>
+  </div>
+  <select class="size-select" style="border-radius:6px;padding:2px 8px;font-size:0.9rem;border:1px solid #ccc;">
+    <option value="S">S</option>
+    <option value="M" selected>M</option>
+    <option value="L">L</option>
+    <option value="XL">XL</option>
+  </select>
+  <button class="add-to-cart-btn" type="submit" style="font-size:0.9rem;background:#e75480;color:#fff;border:none;border-radius:6px;padding:0.3rem 1rem;font-weight:600;">Add</button>
+</form>
+                        <div class="quantity-add-message" style="margin-top:2px;color:green;font-size:0.9rem;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="seller container">
+            <h2>Hot Sales</h2>
+            <div class="best-seller">
+                <div class="best-p1">
+                    <img src="https://i.postimg.cc/jS7pSQLf/na4.png" alt="img">
+                    <div class="best-p1-txt">
+                        <div class="name-of-p">
+                            <p>PS England Shoes</p>
+                        </div>
+                        <div class="rating">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                        </div>
+                        <div class="price">
+                            &dollar;37.24
+                            <div class="colors">
+                                <i class='bx bxs-circle grey'></i>
+                                <i class='bx bxs-circle black'></i>
+                                <i class='bx bxs-circle blue'></i>
+                            </div>
+                        </div>
+                        <div class="buy-now">
+                        </div>
+                        <!-- In each product card's .product-quantity-form, add a size selector and modernize quantity controls -->
+<form class="product-quantity-form" style="display:flex;align-items:center;gap:0.5rem;margin-top:8px;">
+  <label for="quantity-input-8" style="font-size:0.9rem;">Qty:</label>
+  <div class="quantity-btn-group" style="display:flex;align-items:center;gap:2px;">
+    <button type="button" class="qty-btn minus" style="background:#eee;border:none;border-radius:50%;width:28px;height:28px;font-size:1.2rem;font-weight:bold;cursor:pointer;">-</button>
+    <input type="number" class="quantity-input" id="quantity-input-8" min="1" value="1" style="width:45px;font-size:0.9rem;text-align:center;border-radius:6px;border:1px solid #ccc;">
+    <button type="button" class="qty-btn plus" style="background:#eee;border:none;border-radius:50%;width:28px;height:28px;font-size:1.2rem;font-weight:bold;cursor:pointer;">+</button>
+  </div>
+  <select class="size-select" style="border-radius:6px;padding:2px 8px;font-size:0.9rem;border:1px solid #ccc;">
+    <option value="S">S</option>
+    <option value="M" selected>M</option>
+    <option value="L">L</option>
+    <option value="XL">XL</option>
+  </select>
+  <button class="add-to-cart-btn" type="submit" style="font-size:0.9rem;background:#e75480;color:#fff;border:none;border-radius:6px;padding:0.3rem 1rem;font-weight:600;">Add</button>
+</form>
+                        <div class="quantity-add-message" style="margin-top:2px;color:green;font-size:0.9rem;"></div>
+                    </div>
+                </div>
+                <div class="best-p1">
+                    <img src="https://i.postimg.cc/fbnB2yfj/na1.png" alt="img">
+                    <div class="best-p1-txt">
+                        <div class="name-of-p">
+                            <p>PS England T-Shirt</p>
+                        </div>
+                        <div class="rating">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                        </div>
+                        <div class="price">
+                            &dollar;10.23
+                            <div class="colors">
+                                <i class='bx bxs-circle blank'></i>
+                                <i class='bx bxs-circle blue'></i>
+                                <i class='bx bxs-circle brown'></i>
+                            </div>
+                        </div>
+                        <div class="buy-now">
+                        </div>
+                        <!-- In each product card's .product-quantity-form, add a size selector and modernize quantity controls -->
+<form class="product-quantity-form" style="display:flex;align-items:center;gap:0.5rem;margin-top:8px;">
+  <label for="quantity-input-9" style="font-size:0.9rem;">Qty:</label>
+  <div class="quantity-btn-group" style="display:flex;align-items:center;gap:2px;">
+    <button type="button" class="qty-btn minus" style="background:#eee;border:none;border-radius:50%;width:28px;height:28px;font-size:1.2rem;font-weight:bold;cursor:pointer;">-</button>
+    <input type="number" class="quantity-input" id="quantity-input-9" min="1" value="1" style="width:45px;font-size:0.9rem;text-align:center;border-radius:6px;border:1px solid #ccc;">
+    <button type="button" class="qty-btn plus" style="background:#eee;border:none;border-radius:50%;width:28px;height:28px;font-size:1.2rem;font-weight:bold;cursor:pointer;">+</button>
+  </div>
+  <select class="size-select" style="border-radius:6px;padding:2px 8px;font-size:0.9rem;border:1px solid #ccc;">
+    <option value="S">S</option>
+    <option value="M" selected>M</option>
+    <option value="L">L</option>
+    <option value="XL">XL</option>
+  </select>
+  <button class="add-to-cart-btn" type="submit" style="font-size:0.9rem;background:#e75480;color:#fff;border:none;border-radius:6px;padding:0.3rem 1rem;font-weight:600;">Add</button>
+</form>
+                        <div class="quantity-add-message" style="margin-top:2px;color:green;font-size:0.9rem;"></div>
+                    </div>
+                </div>
+                <div class="best-p1">
+                    <img src="https://i.postimg.cc/RhVP7YQk/hs1.png" alt="img">
+                    <div class="best-p1-txt">
+                        <div class="name-of-p">
+                            <p>PS England T-Shirt</p>
+                        </div>
+                        <div class="rating">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                        </div>
+                        <div class="price">
+                            &dollar;15.24
+                            <div class="colors">
+                                <i class='bx bxs-circle blank'></i>
+                                <i class='bx bxs-circle red'></i>
+                                <i class='bx bxs-circle blue'></i>
+                            </div>
+                        </div>
+                        <div class="buy-now">
+                        </div>
+                        <!-- In each product card's .product-quantity-form, add a size selector and modernize quantity controls -->
+<form class="product-quantity-form" style="display:flex;align-items:center;gap:0.5rem;margin-top:8px;">
+  <label for="quantity-input-10" style="font-size:0.9rem;">Qty:</label>
+  <div class="quantity-btn-group" style="display:flex;align-items:center;gap:2px;">
+    <button type="button" class="qty-btn minus" style="background:#eee;border:none;border-radius:50%;width:28px;height:28px;font-size:1.2rem;font-weight:bold;cursor:pointer;">-</button>
+    <input type="number" class="quantity-input" id="quantity-input-10" min="1" value="1" style="width:45px;font-size:0.9rem;text-align:center;border-radius:6px;border:1px solid #ccc;">
+    <button type="button" class="qty-btn plus" style="background:#eee;border:none;border-radius:50%;width:28px;height:28px;font-size:1.2rem;font-weight:bold;cursor:pointer;">+</button>
+  </div>
+  <select class="size-select" style="border-radius:6px;padding:2px 8px;font-size:0.9rem;border:1px solid #ccc;">
+    <option value="S">S</option>
+    <option value="M" selected>M</option>
+    <option value="L">L</option>
+    <option value="XL">XL</option>
+  </select>
+  <button class="add-to-cart-btn" type="submit" style="font-size:0.9rem;background:#e75480;color:#fff;border:none;border-radius:6px;padding:0.3rem 1rem;font-weight:600;">Add</button>
+</form>
+                        <div class="quantity-add-message" style="margin-top:2px;color:green;font-size:0.9rem;"></div>
+                    </div>
+                </div>
+                <div class="best-p1">
+                    <img src="https://i.postimg.cc/zD02zJq8/na2.png" alt="img">
+                    <div class="best-p1-txt">
+                        <div class="name-of-p">
+                            <p>PS England Bag</p>
+                        </div>
+                        <div class="rating">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                        </div>
+                        <div class="price">
+                            &dollar;09.28
+                            <div class="colors">
+                                <i class='bx bxs-circle brown'></i>
+                                <i class='bx bxs-circle red'></i>
+                                <i class='bx bxs-circle green'></i>
+                            </div>
+                        </div>
+                        <div class="buy-now">
+                        </div>
+                        <!-- In each product card's .product-quantity-form, add a size selector and modernize quantity controls -->
+<form class="product-quantity-form" style="display:flex;align-items:center;gap:0.5rem;margin-top:8px;">
+  <label for="quantity-input-11" style="font-size:0.9rem;">Qty:</label>
+  <div class="quantity-btn-group" style="display:flex;align-items:center;gap:2px;">
+    <button type="button" class="qty-btn minus" style="background:#eee;border:none;border-radius:50%;width:28px;height:28px;font-size:1.2rem;font-weight:bold;cursor:pointer;">-</button>
+    <input type="number" class="quantity-input" id="quantity-input-11" min="1" value="1" style="width:45px;font-size:0.9rem;text-align:center;border-radius:6px;border:1px solid #ccc;">
+    <button type="button" class="qty-btn plus" style="background:#eee;border:none;border-radius:50%;width:28px;height:28px;font-size:1.2rem;font-weight:bold;cursor:pointer;">+</button>
+  </div>
+  <select class="size-select" style="border-radius:6px;padding:2px 8px;font-size:0.9rem;border:1px solid #ccc;">
+    <option value="S">S</option>
+    <option value="M" selected>M</option>
+    <option value="L">L</option>
+    <option value="XL">XL</option>
+  </select>
+  <button class="add-to-cart-btn" type="submit" style="font-size:0.9rem;background:#e75480;color:#fff;border:none;border-radius:6px;padding:0.3rem 1rem;font-weight:600;">Add</button>
+</form>
+                        <div class="quantity-add-message" style="margin-top:2px;color:green;font-size:0.9rem;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="news">
+        <div class="news-heading">
+            <p>LATEST NEWS</p>
+            <h2>Fashion New Trends</h2>
+        </div>
+        <div class="l-news container">
+            <div class="l-news1">
+                <div class="news1-img">
+                    <img src="https://i.postimg.cc/2y6wbZCm/news1.jpg" alt="img">
+                </div>
+                <div class="news1-conte">
+                    <div class="date-news1">
+                        <p><i class='bx bxs-calendar'></i> 12 February 2022</p>
+                        <h4>What Curling Irons Are The Best Ones</h4>
+                        <a href="https://www.vogue.com/article/best-curling-irons" target="_blank">read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="l-news2">
+                <div class="news2-img">
+                    <img src="https://i.postimg.cc/9MXPK7RT/news2.jpg" alt="img">
+                </div>
+                <div class="news2-conte">
+                    <div class="date-news2">
+                        <p><i class='bx bxs-calendar'></i> 17 February 2022</p>
+                        <h4>The Health Benefits Of Sunglasses</h4>
+                        <a href="https://www.rivieraopticare.com/blog/314864-the-health-benefits-of-wearing-sunglasses_2/" target="_blank">read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="l-news3">
+                <div class="news3-img">
+                    <img src="https://i.postimg.cc/x1KKdRLM/news3.jpg" alt="img">
+                </div>
+                <div class="news3-conte">
+                    <div class="date-news3">
+                        <p><i class='bx bxs-calendar'></i> 26 February 202</p>
+                        <h4>Eternity Bands Do Last Forever</h4>
+                        <a href="https://www.briangavindiamonds.com/news/eternity-bands-symbolize-love-that-lasts-forever/" target="_blank">read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="contact container">
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.121169986175!2d73.90618951442687!3d18.568575172551647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c131ed5b54a7%3A0xad718b8b2c93d36d!2sSky%20Vista!5e0!3m2!1sen!2sin!4v1654257749399!5m2!1sen!2sin"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <form action="https://formspree.io/f/xzbowpjq" method="POST" id="contact-form">
+            <div class="form">
+                <div class="form-txt">
+                    <h4>INFORMATION</h4>
+                    <h1>Contact Us</h1>
+                    <span>As you might expect of a company that began as a high-end interiors contractor, we pay strict
+                        attention.</span>
+                    <h3>USA</h3>
+                    <p>195 E Parker Square Dr, Parker, CO 801<br>+43 982-314-0958</p>
+                    <h3>India</h3>
+                    <p>HW95+C9C, Lorem ipsum dolor sit.<br>411014</p>
+                </div>
+                <div class="form-details">
+                    <input type="text" name="name" id="name" placeholder="Name" required>
+                    <input type="email" name="email" id="email" placeholder="Email" required>
+                    <textarea name="message" id="message" cols="52" rows="7" placeholder="Message" required></textarea>
+                    <button type="submit">SEND MESSAGE</button>
+                    <div id="contact-success-msg" style="display:none;color:green;margin-top:10px;font-weight:bold;">Thank you for contacting us! We have received your message.</div>
+                </div>
+            </div>
+        </form>
+    </div>
+    </section>
+    <footer>
+        <div class="footer-container container">
+            <div class="content_1">
+                <img src="https://i.postimg.cc/htGyQ4JB/footer-logo.png" alt="logo">
+                <p>The customer is at the heart of our<br>unique business model, which includes<br>design.</p>
+                <img src="https://i.postimg.cc/Nj9dgJ98/cards.png" alt="cards">
+            </div>
+            <div class="content_2">
+                <h4>SHOPPING</h4>
+                <a href="#sellers">Clothing Store</a>
+                <a href="#sellers">Trending Shoes</a>
+                <a href="#sellers">Accessories</a>
+                <a href="#sellers">Sale</a>
+            </div>
+            <div class="content_3">
+                <h4>SHOPPING</h4>
+                <a href="./contact.html">Contact Us</a>
+                <a href="https://payment-method-sb.netlify.app/" target="_blank">Payment Method</a>
+                <a href="https://delivery-status-sb.netlify.app/" target="_blank">Delivery</a>
+                <a href="https://codepen.io/sandeshbodake/full/Jexxrv" target="_blank">Return and Exchange</a>
+            </div>
+            <div class="content_4">
+                <h4>NEWLETTER</h4>
+                <p>Be the first to know about new<br>arrivals, look books, sales & promos!</p>
+                <div class="f-mail">
+                    <input type="email" placeholder="Your Email">
+                    <i class='bx bx-envelope'></i>
+                </div>
+                <hr>
+            </div>
+        </div>
+        <div class="f-design">
+            <div class="f-design-txt container">
+                <p>Design and Code by code.Deependra Pandey</p>
+            </div>
+        </div>
+    </footer>
+    <!-- Cart Modal -->
+<div id="cart-modal" class="modal">
+  <div class="modal-content">
+    <span class="close" id="close-cart">&times;</span>
+    <h2 class="cart-modal-header">Your Cart</h2>
+    <div id="cart-items"></div>
+    <div id="cart-total"></div>
+    <button class="proceed-to-buy-btn" id="checkout-btn" style="margin-top:10px;width:100%;background:#e75480;color:#fff;border:none;border-radius:4px;padding:0.4rem 1.1rem;font-size:1rem;font-weight:600;cursor:pointer;">Checkout</button>
+  </div>
+</div>
+<!-- Auth Modal -->
+<div id="auth-modal" class="modal">
+  <div class="modal-content auth-content">
+    <span class="close" id="close-auth">&times;</span>
+    <div class="auth-tabs">
+      <button id="show-login" class="active">Login</button>
+      <button id="show-signup">Sign Up</button>
+    </div>
+    <form id="login-form">
+      <h2>Login</h2>
+      <input type="email" id="login-email" placeholder="Email" required>
+      <input type="password" id="login-password" placeholder="Password" required>
+      <button type="submit">Login</button>
+    </form>
+    <form id="signup-form" style="display:none;">
+      <h2>Sign Up</h2>
+      <input type="text" id="signup-name" placeholder="Name" required>
+      <input type="email" id="signup-email" placeholder="Email" required>
+      <input type="password" id="signup-password" placeholder="Password" required>
+      <button type="submit">Sign Up</button>
+    </form>
+  </div>
+</div>
+<!-- Toast Notification -->
+<div id="toast-container" style="position:fixed;top:30px;right:30px;z-index:9999;display:flex;flex-direction:column;gap:10px;"></div>
+<!-- Advanced Chatbot Widget -->
+<div id="chatbot-widget" style="position:fixed;bottom:30px;right:30px;z-index:99999;">
+  <button id="chatbot-toggle" style="background:#e75480;color:#fff;border:none;border-radius:50%;width:56px;height:56px;font-size:2rem;box-shadow:0 2px 8px rgba(0,0,0,0.18);cursor:pointer;">💬</button>
+  <div id="chatbot-window" style="display:none;width:340px;max-width:90vw;height:480px;background:#fff;border-radius:16px;box-shadow:0 4px 24px rgba(0,0,0,0.18);padding:0;overflow:hidden;flex-direction:column;">
+    <div style="background:#e75480;color:#fff;padding:14px 18px;font-weight:700;font-size:1.1rem;border-top-left-radius:16px;border-top-right-radius:16px;display:flex;align-items:center;justify-content:space-between;">
+      <span>🛍️ E-Commerce Chatbot</span>
+      <div>
+        <button id="chatbot-refresh" title="Refresh Chat" style="background:none;border:none;color:#fff;font-size:1.3rem;cursor:pointer;margin-right:8px;border-radius:6px;padding:2px 8px;">🔄</button>
+        <button id="chatbot-close" style="background:none;border:none;color:#fff;font-size:1.3rem;cursor:pointer;">&times;</button>
+      </div>
+    </div>
+    <div id="chatbot-messages" style="flex:1;overflow-y:auto;padding:16px 12px 8px 12px;background:#faf9fa;font-size:1rem;"></div>
+    <form id="chatbot-form" style="display:flex;padding:10px 8px 8px 8px;background:#f5f5f5;gap:6px;">
+      <input id="chatbot-input" type="text" placeholder="Type your message..." autocomplete="off" style="flex:1;padding:8px 12px;border-radius:8px;border:1px solid #ccc;font-size:1rem;" required />
+      <button type="submit" style="background:#e75480;color:#fff;border:none;border-radius:8px;padding:8px 16px;font-weight:600;cursor:pointer;">Send</button>
+    </form>
+  </div>
+</div>
+<script>
+(function() {
+  const toggleBtn = document.getElementById('chatbot-toggle');
+  const windowDiv = document.getElementById('chatbot-window');
+  const closeBtn = document.getElementById('chatbot-close');
+  const refreshBtn = document.getElementById('chatbot-refresh');
+  const form = document.getElementById('chatbot-form');
+  const input = document.getElementById('chatbot-input');
+  const messages = document.getElementById('chatbot-messages');
+
+  // Advanced FAQ/intents and features
+  const faqs = [
+    { q: /hello|hi|hey|good (morning|afternoon|evening)/i, a: 'Hello! 👋 How can I assist you today? You can ask about orders, products, payments, and more.' },
+    { q: /track.*order|order status|where.*order|how.*track.*order/i, a: 'To track your order, please log in and visit your account page. If you provide your order number, I can check the status for you.' },
+    { q: /cancel.*order|order.*cancel|how.*cancel.*order/i, a: 'To cancel an order, log in and go to your orders page, or provide your order number here for assistance. If your order has not shipped yet, it can be cancelled immediately.' },
+    { q: /return|exchange|refund|how.*return/i, a: 'Returns and exchanges are accepted within 7 days of delivery. Visit the Return and Exchange link in the footer or contact support for help.' },
+    { q: /payment.*fail|cannot pay|payment error/i, a: 'If your payment failed, please try again or use a different payment method. If the issue persists, contact support.' },
+    { q: /payment method|how.*pay|pay by|accept.*payment/i, a: 'We accept payments via Credit/Debit Card, UPI, and Cash on Delivery (COD). You can select your preferred payment method at checkout.' },
+    { q: /discount|offer|coupon|promo|deal/i, a: 'Check our homepage and banners for the latest offers and coupons! If you have a coupon code, you can apply it at checkout.' },
+    { q: /gift wrap|gift option/i, a: 'Gift wrapping is available at checkout. Select the gift option before payment.' },
+    { q: /bulk order|wholesale|large quantity/i, a: 'For bulk or wholesale orders, please contact our support team for special pricing.' },
+    { q: /international shipping|ship abroad|ship to/i, a: 'Currently, we ship only within India. Stay tuned for international shipping updates!' },
+    { q: /loyalty|reward|points/i, a: 'Join our loyalty program to earn points on every purchase. More details coming soon!' },
+    { q: /size guide|fit|measurement/i, a: 'A size guide is available on each product page. If you need help choosing a size, let me know!' },
+    { q: /invoice|bill|receipt/i, a: 'You will receive an invoice by email after your order is placed. You can also download it from your account.' },
+    { q: /forgot password|reset password/i, a: 'Click on SIGN IN and use the "Forgot Password" link to reset your password.' },
+    { q: /safe|secure|privacy|data/i, a: 'Your data is safe with us. We use secure payment gateways and never share your information.' },
+    { q: /mobile app|android|ios|iphone/i, a: 'Our mobile app is coming soon! For now, enjoy shopping on our website.' },
+    { q: /environment|eco|sustainab/i, a: 'We are committed to sustainability. Many of our products are eco-friendly and responsibly sourced.' },
+    { q: /employee|career|job|vacancy/i, a: 'Interested in joining us? Check our Careers page or contact support for job openings.' },
+    { q: /collaborate|partnership|influencer/i, a: 'For collaborations or partnerships, please contact us via the Contact section.' },
+    { q: /track refund|refund status/i, a: 'Refunds are processed within 5-7 business days after approval. You can track status in your account.' },
+    { q: /replace|how to replace|replacement/i, a: 'To replace a product, please initiate a return within 7 days of delivery and select the replacement option. For more help, contact our support team.' },
+    // Advanced: product recommendation
+    { q: /recommend|suggest.*product|what.*buy/i, a: 'Tell me what you are looking for (e.g., shoes, jackets, gifts) and I can suggest some popular products!' },
+    // Advanced: order number lookup (simulated)
+    { q: /order number ([A-Z0-9]{8})/i, a: (match) => `Order ${match[1]} is being processed. You will receive a notification when it ships!` },
+    // Advanced: chatbot fun
+    { q: /joke|funny|make me laugh/i, a: 'Why did the developer go broke? Because he used up all his cache! 😄' },
+    { q: /who are you|your name|about you/i, a: 'I am your virtual shopping assistant, here to help you with anything related to our store!' },
+    { q: /bye|goodbye|see you|thanks|thank you/i, a: 'Goodbye! Have a great day! 😊' },
+  ];
+
+  function appendMessage(text, sender) {
+    const msg = document.createElement('div');
+    msg.style.margin = '8px 0';
+    msg.style.display = 'flex';
+    msg.style.justifyContent = sender === 'user' ? 'flex-end' : 'flex-start';
+    msg.innerHTML = `<span style="background:${sender==='user'?'#e75480':'#eee'};color:${sender==='user'?'#fff':'#222'};padding:8px 14px;border-radius:12px;max-width:80%;display:inline-block;">${text}</span>`;
+    messages.appendChild(msg);
+    messages.scrollTop = messages.scrollHeight;
+  }
+
+  function appendTyping() {
+    const typing = document.createElement('div');
+    typing.id = 'chatbot-typing';
+    typing.style.margin = '8px 0';
+    typing.style.display = 'flex';
+    typing.style.justifyContent = 'flex-start';
+    typing.innerHTML = `<span style="background:#eee;color:#222;padding:8px 14px;border-radius:12px;max-width:80%;display:inline-block;">Typing...</span>`;
+    messages.appendChild(typing);
+    messages.scrollTop = messages.scrollHeight;
+  }
+  function removeTyping() {
+    const typing = document.getElementById('chatbot-typing');
+    if (typing) typing.remove();
+  }
+
+  function botReply(userText) {
+    const text = userText.trim().toLowerCase();
+    for (const faq of faqs) {
+      if (typeof faq.a === 'function') {
+        const match = faq.q.exec(userText);
+        if (match) return faq.a(match);
+      } else if (faq.q.test(text)) {
+        return faq.a;
+      }
+    }
+    // Fallback
+    return "I'm sorry, I didn't understand that. You can ask about orders, products, payments, offers, or just say hi!";
+  }
+
+  // Advanced feature: allow pressing Enter to send, Shift+Enter for newline
+  input.addEventListener('keydown', function(e) {
+    if (e.key === 'Enter' && !e.shiftKey) {
+      e.preventDefault();
+      form.dispatchEvent(new Event('submit', {cancelable:true, bubbles:true}));
+    }
+  });
+
+  // Advanced feature: copy chat message on click
+  messages.addEventListener('click', function(e) {
+    if (e.target.tagName === 'SPAN') {
+      navigator.clipboard.writeText(e.target.textContent);
+      e.target.style.background = '#c8e6c9';
+      setTimeout(() => { e.target.style.background = e.target.parentNode.style.justifyContent === 'flex-end' ? '#e75480' : '#eee'; }, 600);
+    }
+  });
+
+  toggleBtn.onclick = function() {
+    windowDiv.style.display = windowDiv.style.display === 'none' ? 'flex' : 'none';
+  };
+  if (closeBtn) closeBtn.onclick = function() {
+    windowDiv.style.display = 'none';
+  };
+  if (refreshBtn) refreshBtn.onclick = function() {
+    messages.innerHTML = '';
+    appendMessage('Chat cleared. How can I help you?', 'bot');
+  };
+  form.onsubmit = function(e) {
+    e.preventDefault();
+    const userMsg = input.value;
+    if (!userMsg.trim()) return;
+    appendMessage(userMsg, 'user');
+    input.value = '';
+    appendTyping();
+    setTimeout(() => {
+      removeTyping();
+      appendMessage(botReply(userMsg), 'bot');
+    }, 600);
+  };
+  // Initial greeting removed
+})();
+
+</script>
+<script>
+// --- Cart Logic ---
+let cart = [];
+function renderProceedToBuy(total) {
+  return `<button class="proceed-to-buy-btn" style="margin-top:10px;width:100%;background:#e75480;color:#fff;border:none;border-radius:4px;padding:0.4rem 1.1rem;font-size:1rem;font-weight:600;cursor:pointer;">Proceed to Buy</button>`;
+}
+function showToast(message, type = 'success') {
+  const toastContainer = document.getElementById('toast-container');
+  const toast = document.createElement('div');
+  toast.textContent = message;
+  toast.style.background = type === 'success' ? '#4caf50' : '#e75480';
+  toast.style.color = '#fff';
+  toast.style.padding = '12px 24px';
+  toast.style.borderRadius = '6px';
+  toast.style.fontWeight = 'bold';
+  toast.style.boxShadow = '0 2px 8px rgba(0,0,0,0.12)';
+  toast.style.opacity = '0.97';
+  toast.style.transition = 'opacity 0.3s';
+  toastContainer.appendChild(toast);
+  setTimeout(() => {
+    toast.style.opacity = '0';
+    setTimeout(() => toast.remove(), 400);
+  }, 2000);
+}
+function updateCartModal() {
+  const cartItemsDiv = document.getElementById('cart-items');
+  const cartTotalDiv = document.getElementById('cart-total');
+  if (cart.length === 0) {
+    cartItemsDiv.innerHTML = '<p class="cart-empty-message">Your cart is empty.</p>';
+    cartTotalDiv.innerHTML = '';
+    return;
+  }
+  let total = 0;
+  cartItemsDiv.innerHTML = cart.map((item, i) => {
+    total += item.price * item.qty;
+    return `<div class='cart-item'>${item.name} (${item.size}) x${item.qty} - $${(item.price*item.qty).toFixed(2)} <button class="cart-remove-btn" onclick="removeFromCart(${i})">Remove</button></div>`;
+  }).join('');
+  cartTotalDiv.innerHTML = `<strong>Total: $${total.toFixed(2)}</strong>` + renderProceedToBuy(total);
+}
+function updateNavbarCart() {
+  const cartList = document.getElementById('navbar-cart-list');
+  const cartTotalDiv = document.getElementById('navbar-cart-total');
+  const cartCount = document.getElementById('navbar-cart-count');
+  if (!cartList || !cartTotalDiv || !cartCount) return;
+  cartCount.textContent = cart.reduce((sum, item) => sum + item.qty, 0);
+  if (cart.length === 0) {
+    cartList.innerHTML = '<p>Your cart is empty.</p>';
+    cartTotalDiv.innerHTML = '';
+    return;
+  }
+  let total = 0;
+  cartList.innerHTML = cart.map((item, i) => {
+    total += item.price * item.qty;
+    return `<div class='cart-item'>${item.name} (${item.size}) x${item.qty} <button onclick=\"removeFromNavbarCart(${i})\">Remove</button></div>`;
+  }).join('');
+  cartTotalDiv.innerHTML = `<strong>Total: $${total.toFixed(2)}</strong>` + renderProceedToBuy(total);
+}
+function removeFromCart(idx) {
+  cart.splice(idx, 1);
+  updateCartModal();
+  updateNavbarCart();
+}
+function removeFromNavbarCart(idx) {
+  cart.splice(idx, 1);
+  updateCartModal();
+  updateNavbarCart();
+}
+// Cart modal open/close
+const cartModal = document.getElementById('cart-modal');
+document.getElementById('navbar-cart-toggle').onclick = function() {
+  cartModal.style.display = 'block';
+  updateCartModal();
+};
+document.getElementById('close-cart').onclick = function() {
+  cartModal.style.display = 'none';
+};
+// Navbar cart dropdown
+const navbarCartToggle = document.getElementById('navbar-cart-toggle');
+const navbarCartDropdown = document.getElementById('navbar-cart-dropdown');
+navbarCartToggle.onmouseenter = function() {
+  navbarCartDropdown.style.display = 'block';
+  updateNavbarCart();
+};
+navbarCartToggle.onmouseleave = function() {
+  setTimeout(() => { navbarCartDropdown.style.display = 'none'; }, 300);
+};
+navbarCartDropdown.onmouseenter = function() {
+  navbarCartDropdown.style.display = 'block';
+};
+navbarCartDropdown.onmouseleave = function() {
+  navbarCartDropdown.style.display = 'none';
+};
+// Add-to-cart logic
+function getProductInfo(form) {
+  const name = form.parentElement.querySelector('.name-of-p p')?.innerText || 'Product';
+  const priceText = form.parentElement.querySelector('.price')?.childNodes[0]?.textContent?.trim() || '$0';
+  const price = parseFloat(priceText.replace(/[^\d.]/g, '')) || 0;
+  const qty = parseInt(form.querySelector('.quantity-input').value, 10);
+  const size = form.querySelector('.size-select').value;
+  return { name, price, qty, size };
+}
+document.querySelectorAll('.product-quantity-form').forEach(function(form) {
+  form.onsubmit = function(e) {
+    e.preventDefault();
+    const item = getProductInfo(form);
+    cart.push(item);
+    showToast(`${item.name} (Qty: ${item.qty}) added to cart!`, 'success');
+    updateCartModal();
+    updateNavbarCart();
+  };
+  // Quantity buttons
+  const minusBtn = form.querySelector('.qty-btn.minus');
+  const plusBtn = form.querySelector('.qty-btn.plus');
+  const qtyInput = form.querySelector('.quantity-input');
+  if (minusBtn && qtyInput) {
+    minusBtn.onclick = function() {
+      let val = parseInt(qtyInput.value, 10);
+      if (val > 1) qtyInput.value = val - 1;
+    };
+  }
+  if (plusBtn && qtyInput) {
+    plusBtn.onclick = function() {
+      let val = parseInt(qtyInput.value, 10);
+      qtyInput.value = val + 1;
+    };
+  }
+});
+// --- Auth Logic ---
+let users = JSON.parse(localStorage.getItem('users') || '[]');
+let loggedInUser = localStorage.getItem('loggedInUser') || null;
+function showAuthTab(tab) {
+  document.getElementById('login-form').style.display = tab === 'login' ? 'block' : 'none';
+  document.getElementById('signup-form').style.display = tab === 'signup' ? 'block' : 'none';
+  document.getElementById('show-login').classList.toggle('active', tab === 'login');
+  document.getElementById('show-signup').classList.toggle('active', tab === 'signup');
+}
+document.getElementById('show-login').onclick = () => showAuthTab('login');
+document.getElementById('show-signup').onclick = () => showAuthTab('signup');
+document.getElementById('close-auth').onclick = function() {
+  document.getElementById('auth-modal').style.display = 'none';
+};
+document.getElementById('sign-in-btn').onclick = function(e) {
+  e.preventDefault();
+  showAuthTab('login');
+  document.getElementById('auth-modal').style.display = 'block';
+};
+document.getElementById('sign-up-btn').onclick = function(e) {
+  e.preventDefault();
+  showAuthTab('signup');
+  document.getElementById('auth-modal').style.display = 'block';
+};
+document.getElementById('login-form').onsubmit = function(e) {
+  e.preventDefault();
+  const email = document.getElementById('login-email').value;
+  const password = document.getElementById('login-password').value;
+  const user = users.find(u => u.email === email && u.password === password);
+  if (user) {
+    loggedInUser = user.name;
+    localStorage.setItem('loggedInUser', loggedInUser);
+    showToast('Login successful!', 'success');
+    renderAuthButtons();
+    document.getElementById('auth-modal').style.display = 'none';
+  } else {
+    showToast('Invalid credentials!', 'error');
+  }
+};
+document.getElementById('signup-form').onsubmit = function(e) {
+  e.preventDefault();
+  const name = document.getElementById('signup-name').value;
+  const email = document.getElementById('signup-email').value;
+  const password = document.getElementById('signup-password').value;
+  if (users.find(u => u.email === email)) {
+    showToast('Email already registered!', 'error');
+    return;
+  }
+  users.push({ name, email, password });
+  localStorage.setItem('users', JSON.stringify(users));
+  showToast('Signup successful! Please login.', 'success');
+  showAuthTab('login');
+};
+function renderAuthButtons() {
+  const authDiv = document.querySelector('.sing_in_up');
+  if (!authDiv) return;
+  authDiv.innerHTML = '';
+  if (loggedInUser) {
+    authDiv.innerHTML = `<span style="margin-right:10px;font-weight:600;">👤 ${loggedInUser}</span><a href="#" id="logout-btn" style="font-weight:700;color:#e75480;"><span style='font-size:1.1em;margin-right:4px;'>🚪</span>LOGOUT</a>`;
+  } else {
+    authDiv.innerHTML = `<a href="#" id="sign-in-btn" style="font-weight:700;color:#000;"><span style="font-size:1.1em;margin-right:4px;">🔑</span>SIGN IN</a> <a href="#" id="sign-up-btn" style="font-weight:700;color:#000;"><span style="font-size:1.1em;margin-right:4px;">📝</span>SIGN UP</a>`;
+  }
+  // Re-attach event listeners
+  if (document.getElementById('sign-in-btn')) {
+    document.getElementById('sign-in-btn').onclick = function(e) {
+      e.preventDefault();
+      showAuthTab('login');
+      document.getElementById('auth-modal').style.display = 'block';
+    };
+  }
+  if (document.getElementById('sign-up-btn')) {
+    document.getElementById('sign-up-btn').onclick = function(e) {
+      e.preventDefault();
+      showAuthTab('signup');
+      document.getElementById('auth-modal').style.display = 'block';
+    };
+  }
+  if (document.getElementById('logout-btn')) {
+    document.getElementById('logout-btn').onclick = function(e) {
+      e.preventDefault();
+      loggedInUser = null;
+      localStorage.removeItem('loggedInUser');
+      showToast('Logged out successfully!', 'success');
+      renderAuthButtons();
+    };
+  }
+}
+renderAuthButtons();
+// --- Contact Form ---
+document.getElementById('contact-form').onsubmit = function(e) {
+  e.preventDefault();
+  showToast('Thank you for contacting us! We have received your message.', 'success');
+  document.getElementById('contact-success-msg').style.display = 'block';
+  setTimeout(() => {
+    document.getElementById('contact-success-msg').style.display = 'none';
+    document.getElementById('contact-form').reset();
+  }, 2500);
+};
+document.addEventListener('click', function(e) {
+  // Checkout button: clear cart, show toast, go home
+  if (e.target && (e.target.id === 'checkout-btn' || e.target.id === 'navbar-cart-checkout')) {
+    e.preventDefault();
+    cart = [];
+    updateCartModal();
+    updateNavbarCart();
+    if (document.getElementById('cart-modal')) document.getElementById('cart-modal').style.display = 'none';
+    if (document.getElementById('navbar-cart-dropdown')) document.getElementById('navbar-cart-dropdown').style.display = 'none';
+    window.location.hash = '#home';
+    showToast('Checkout successful!', 'success');
+    return;
+  }
+  // Proceed to Buy: show address modal
+  if (e.target && e.target.classList.contains('proceed-to-buy-btn')) {
+    e.preventDefault();
+    showAddressModal();
+  }
+  // Continue to Payment: show payment modal
+
+  if (e.target && e.target.id === 'continue-to-payment-btn') {
+    e.preventDefault();
+    document.getElementById('address-modal').style.display = 'none';
+    showPaymentModal();
+  }
+  // Place Order: show payment success toast with total
+  if (e.target && e.target.id === 'place-order-btn') {
+    e.preventDefault();
+    let total = cart.reduce((sum, item) => sum + (item.price * item.qty), 0);
+    cart = [];
+    updateCartModal();
+    updateNavbarCart();
+    if (document.getElementById('payment-modal')) document.getElementById('payment-modal').style.display = 'none';
+    if (document.getElementById('cart-modal')) document.getElementById('cart-modal').style.display = 'none';
+    if (document.getElementById('navbar-cart-dropdown')) document.getElementById('navbar-cart-dropdown').style.display = 'none';
+    window.location.hash = '#home';
+    showToast('Payment successful! Total paid: $' + total.toFixed(2), 'success');
+  }
+});
+
+// --- Address Modal Logic ---
+function showAddressModal() {
+  let modal = document.getElementById('address-modal');
+  if (!modal) {
+    modal = document.createElement('div');
+    modal.id = 'address-modal';
+    modal.className = 'modal';
+    modal.innerHTML = `
+      <div class="modal-content" style="max-width:420px;">
+        <span class="close" id="close-address">&times;</span>
+        <h2 style="margin-bottom:16px;">Shipping Address</h2>
+        <form id="address-form" autocomplete="off" novalidate>
+          <div style="margin-bottom:10px;">
+            <input type="text" id="address-name" placeholder="Full Name" required style="width:100%;padding:10px;border-radius:6px;border:1px solid #ccc;" required>
+          </div>
+          <div style="margin-bottom:10px;">
+            <input type="text" id="address-line" placeholder="Address" required style="width:100%;padding:10px;border-radius:6px;border:1px solid #ccc;">
+          </div>
+          <div style="margin-bottom:10px;">
+            <input type="text" id="address-city" placeholder="City" required style="width:100%;padding:10px;border-radius:6px;border:1px solid #ccc;">
+          </div>
+          <div style="margin-bottom:10px;">
+            <input type="text" id="address-zip" placeholder="ZIP Code" required style="width:100%;padding:10px;border-radius:6px;border:1px solid #ccc;">
+          </div>
+          <div style="margin-bottom:16px;">
+            <input type="text" id="address-phone" placeholder="Phone Number" required style="width:100%;padding:10px;border-radius:6px;border:1px solid #ccc;">
+          </div>
+          <button type="submit" id="continue-to-payment-btn" style="width:100%;background:#e75480;color:#fff;border:none;border-radius:6px;padding:0.7rem 1.2rem;font-size:1.1rem;font-weight:600;">Continue to Payment</button>
+        </form>
+      </div>
+    `;
+    document.body.appendChild(modal);
+  }
+  modal.style.display = 'block';
+  document.getElementById('close-address').onclick = function() {
+    modal.style.display = 'none';
+  };
+  document.getElementById('address-form').onsubmit = function(e) {
+    if (!this.checkValidity()) {
+      e.preventDefault();
+      this.reportValidity();
+      return false;
+    }
+    e.preventDefault(); // Prevent actual form submission
+    document.getElementById('address-modal').style.display = 'none';
+    showPaymentModal();
+    return false;
+  };
+}
+
+// --- Payment Modal Logic ---
+function showPaymentModal() {
+  let modal = document.getElementById('payment-modal');
+  if (!modal) {
+    modal = document.createElement('div');
+    modal.id = 'payment-modal';
+    modal.className = 'modal';
+    modal.innerHTML = `
+      <div class="modal-content" style="max-width:420px;">
+        <span class="close" id="close-payment">&times;</span>
+        <h2 style="margin-bottom:16px;">Payment</h2>
+        <form id="payment-form" autocomplete="off" novalidate>
+          <label for="payment-mode" style="font-weight:600;">Payment Method:</label>
+          <select id="payment-mode" required style="width:100%;margin-bottom:14px;padding:10px;border-radius:6px;border:1px solid #ccc;">
+            <option value="card">Credit/Debit Card</option>
+            <option value="upi">UPI</option>
+            <option value="cod">Cash on Delivery</option>
+          </select>
+          <div id="payment-fields"></div>
+          <button type="submit" id="place-order-btn" style="width:100%;margin-top:16px;background:#e75480;color:#fff;border:none;border-radius:6px;padding:0.7rem 1.2rem;font-size:1.1rem;font-weight:600;">Place Order</button>
+        </form>
+      </div>
+    `;
+    document.body.appendChild(modal);
+  }
+  modal.style.display = 'block';
+  document.getElementById('close-payment').onclick = function() {
+    modal.style.display = 'none';
+  };
+  const paymentMode = modal.querySelector('#payment-mode');
+  const paymentFields = modal.querySelector('#payment-fields');
+  function renderCardFields() {
+    paymentFields.innerHTML = `
+      <div style="margin-bottom:10px;">
+        <input type="text" id="card-name" placeholder="Card Name" required style="width:100%;padding:10px;border-radius:6px;border:1px solid #ccc;">
+      </div>
+      <div style="margin-bottom:10px;">
+        <input type="text" id="card-number" placeholder="Card Number" required style="width:100%;padding:10px;border-radius:6px;border:1px solid #ccc;">
+      </div>
+      <div style="margin-bottom:10px;display:flex;gap:8px;">
+        <input type="text" id="card-expiry" placeholder="MM/YY" required style="flex:1;padding:10px;border-radius:6px;border:1px solid #ccc;">
+        <input type="text" id="card-cvc" placeholder="CVC" required style="flex:1;padding:10px;border-radius:6px;border:1px solid #ccc;">
+      </div>
+    `;
+  }
+  function renderUpiFields() {
+    paymentFields.innerHTML = `
+      <div style="margin-bottom:10px;">
+        <input type="text" id="upi-id" placeholder="UPI ID" required style="width:100%;padding:10px;border-radius:6px;border:1px solid #ccc;">
+      </div>
+    `;
+  }
+  function renderCodFields() {
+    paymentFields.innerHTML = '';
+  }
+  function updateFields() {
+    if (paymentMode.value === 'card') renderCardFields();
+    else if (paymentMode.value === 'upi') renderUpiFields();
+    else renderCodFields();
+  }
+  paymentMode.onchange = updateFields;
+  updateFields();
+  document.getElementById('payment-form').onsubmit = function(e) {
+    if (!this.checkValidity()) {
+      e.preventDefault();
+      this.reportValidity();
+      return false;
+    }
+    e.preventDefault(); // Prevent actual form submission
+    document.getElementById('place-order-btn').disabled = true;
+    document.getElementById('place-order-btn').innerText = 'Processing...';
+    setTimeout(() => {
+      document.getElementById('place-order-btn').disabled = false;
+      document.getElementById('place-order-btn').innerText = 'Place Order';
+      let total = cart.reduce((sum, item) => sum + (item.price * item.qty), 0);
+      cart = [];
+      updateCartModal();
+      updateNavbarCart();
+      if (document.getElementById('payment-modal')) document.getElementById('payment-modal').style.display = 'none';
+      if (document.getElementById('cart-modal')) document.getElementById('cart-modal').style.display = 'none';
+      window.location.hash = '#home';
+      showToast('Payment successful! Total paid: $' + total.toFixed(2), 'success');
+    }, 1200);
+    return false;
+  };
+}
+</script>
